@@ -1,0 +1,77 @@
+body {
+    background-color: rgb(196, 197, 197);
+    align-items: center;
+    text-align: center;
+  
+  
+  }
+
+  h2 {
+    color: rgb(13, 13, 72);
+    font-family: Verdana;
+    font-size: 200%;
+      }
+
+  p {
+    color: red; /* bepaalt de tekst kleur */ 
+    font-family:verdana;
+    font-size: 160%;
+   
+    padding: 30px;  /* afstand van de tekst tot de rand binnen de rand */ 
+    margin: 50px;  /* afstand toegevoegd buiten de rand van het element */ 
+  }
+
+  
+
+  .gridcontainer{
+    width:320px;
+    height: 320px;
+    background-image: url(./images/grid.png);
+    background-size: cover;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr ;
+    gap : 2px;
+    border: 2px solid black;
+    border-radius: 5px;
+
+    
+  }
+
+  .gridcontainer:hover {
+    cursor: pointer;
+  }
+
+  .boardSection {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  button {
+    display: block;
+    margin: auto;
+
+  }
+
+  .buttonSection {
+
+    margin-top: 15px;
+  
+  }
+
+  .circle {
+    background-image: url(./images/circle.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 90%;
+
+  }
+
+  .cross {
+    background-image: url(./images/cross.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 90%;
+
+
+  }
